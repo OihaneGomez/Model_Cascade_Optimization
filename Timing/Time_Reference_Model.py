@@ -38,7 +38,6 @@ from sklearn.metrics import f1_score
 #------------------Change these variables:------------------
 #Number of signal components 
 #(9 for all)
-number_initial_components = 9
 
 #Best feature number 
 #(Max 486 for XYZ, 54 for X)
