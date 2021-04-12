@@ -41,7 +41,6 @@ from sklearn.metrics import f1_score
 #Number of signal components 
 #(9 for all)
 number_initial_components = 9
-number_components = 9
 
 #Best feature number 
 #(Max 486 for XYZ, 54 for X)
@@ -168,10 +167,8 @@ def features_calculation_pred(data_x,data_y,data_z,data_gyrox,data_gyroy,data_gy
 
     
 	#Features Calculation
-    if number_components == 9: #FOR XYZ
-        appended_before=array_3Comp
-    else: # For the most representative component (X)
-        appended_before=array_1Comp
+
+    appended_before=array_3Comp
 
     #Create initial_features_matrix
     appended_features_split=[]
