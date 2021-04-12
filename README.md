@@ -1,6 +1,7 @@
 # Model_Cascade_Optimization
 
 Repository containing the material for the analysis of a model cascade optimization approach for resource-constrained settings.
+
 It includes the necessary scripts to evaluate the performance and efficiency (in terms of defection rate and time) of a classification system based on continous data from IoT sentos (e.g., accelerometer data).
 
 ### Dataset
