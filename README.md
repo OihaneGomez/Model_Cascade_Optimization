@@ -15,7 +15,7 @@ This dataset focuses on classifying office employees' hydration patterns based o
 * `~/OHM_Dataset`    : Original dataset 
 * `~/Timing`: Python scripts for obtaining the results of the experiments
 
-  * `~/OHM_Dataset_train_test`    : Dataset with a pre-set train-test split to perform the timing comparison
+  * `~/OHM_Dataset_Train_Test`    : Dataset with a pre-set train-test split to perform the timing comparison
     * `TRAIN` :  800 Instances
     * `TEST` :  200 Instances
   * `Time_Reference_Model.py` :  Save data processing times for inference when clasifying all the instances of the Test folder with the reference model. It will generate a .txt file containing average and std values 
